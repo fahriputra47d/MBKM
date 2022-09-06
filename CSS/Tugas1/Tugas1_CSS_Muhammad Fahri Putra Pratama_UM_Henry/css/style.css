@@ -1,0 +1,53 @@
+p{
+	color:#0509ff;
+	text-align:justify;
+	font-family:calibri, verdana, comic sans, tahoma;
+	font-size:12pt;
+}
+body{
+	/*background-image: linear-gradient(red, green, blue, yellow);*/
+	background-color:khaki;
+	background-image:url('../Images/1.gif');
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+    background-size: 100px;
+	margin:0cm 3cm; /* margin-top&bottom=0cm, margin-left&right=3cm */
+}
+hr{
+	border-width:3px;
+	border-color:#990000;
+	border-style:dotted;
+}
+/* groupping */
+fieldset, legend{
+	border:rgb(37, 136, 248) groove 10px;	
+}
+
+legend{
+	padding:10px; /* all padding */
+	background-color:khaki;
+	color:rgb(17, 0, 255);
+	font-weight:bold;
+	font-size:14pt;
+	text-transform:uppercase;
+	font-family:ubuntu, calibri;
+	letter-spacing:5px;
+}
+
+table{
+	border:10px ridge maroon;
+	margin:auto;
+}
+
+td{
+	padding:5x;
+	border:1px solid rgb(0, 11, 114);
+}
+
+ol { 
+	list-style-image: url("../images/musik.gif"); 
+} 
+ul { 
+	list-style-image: url("../images/nyanyi.gif"); 
+} 
